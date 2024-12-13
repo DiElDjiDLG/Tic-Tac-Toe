@@ -1,0 +1,126 @@
+html,
+body {
+    margin: 0;
+}
+
+#start-screen {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    color: black;
+}
+
+
+#start-screen h1 {
+    color: white;
+    font-size: 3em;
+}
+
+#page-title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(144, 255, 240);
+}
+
+#score-container p{
+    font-size: 2em;
+    color: wheat;
+    text-align: center;
+}
+
+#rules-container {
+    display: none;
+    color: wheat;
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(0, 95, 95);
+    overflow-x: hidden;
+}
+.container {
+    margin-top: 0px;
+    padding: 40px 0 40px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: black;
+}
+
+#btn-placement {
+    display: flex;
+    justify-content: center;
+}
+
+#rules-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: wheat;
+    background-color: black;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 50px;
+}
+
+#reset-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: wheat;
+    background-color: black;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 50px;
+}
+
+#singleplayer-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: wheat;
+    background-color: black;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 50px;
+}
+
+#singleplayer-btn:hover {
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+#rules-btn:hover {
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+.tile {
+    border: 10px groove cyan;
+    box-shadow: 5px 5px 5px rgba(1, 177, 177, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xo {
+    font-size: 6em;
+    text-align: center;
+    color: wheat;
+}
